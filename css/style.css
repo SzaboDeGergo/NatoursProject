@@ -42,7 +42,7 @@ body {
   /* Absolute middle position */
   text-align: center; }
 
-.heading-primary {
+.heading--primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
@@ -132,7 +132,7 @@ body {
   z-index: -1;
   transition: all .4s; }
 
-.btn--white::after {
+.btn-white::after {
   background-color: #fff; }
 
 .btn:hover::after {
