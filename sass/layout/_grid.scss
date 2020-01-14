@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
     
     &:not(:last-child) { //.row:not() --> everything except whats in the brackets --> here the last child of the row
@@ -10,7 +9,6 @@
     @include clearfix;
 
     [class^="col-"] { //attribute selector: with ^ = start with that || with $ = ends with || with * = contains ||
-        background-color: orangered;
         float: left;
 
         &:not(:last-child) {
